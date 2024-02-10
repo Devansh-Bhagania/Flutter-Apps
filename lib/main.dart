@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
-        title: Text("Devansh Bhagania"),
+        title: Text("Devansh Bhagania is a G"),
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -104,7 +104,6 @@ class _MyHomePageState extends State<MyHomePage> {
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
 
-
           // first flutter project created
           // fdsfsdfsd
           // dsfsdf
@@ -112,7 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'You have pushed the button this many times: and u will be a good developer',
             ),
             Text(
               '$_counter',
