@@ -1,5 +1,6 @@
 import 'package:fapp/Denter.dart';
 import 'package:fapp/HomePage.dart';
+import 'package:fapp/ICP.dart';
 import 'package:fapp/Profile.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +16,7 @@ class _MainPageState extends State<MainPage> {
     const HomePage(),
     const Profile(),
     const Denter(),
+    const ICP(),
   ];
 
   @override
@@ -23,7 +25,7 @@ class _MainPageState extends State<MainPage> {
         body: screens[_currentIndex],
         bottomNavigationBar: BottomNavigationBar(
           onTap: onTabTapped,
-          items: [
+          items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
               label: 'Home',
@@ -37,6 +39,11 @@ class _MainPageState extends State<MainPage> {
             BottomNavigationBarItem(
               icon: Icon(Icons.business),
               label: 'Denter',
+              backgroundColor: Colors.blue,
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.cached_outlined),
+              label: 'ICP',
               backgroundColor: Colors.blue,
             ),
           ],
